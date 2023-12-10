@@ -93,5 +93,4 @@ The authors to this project was:
 
 **MAHLET MARESHA GIRMA**
 - GitHub: [mahi2025](https://github.com/mahi2025)
-- LinkedIn: [username](profilelink)
 - Twitter: [@MasreshaMa35962](https://twitter.com/MasreshaMa35962)
