@@ -1,5 +1,3 @@
-<img src="https://www.flaticon.com/free-icon/sea_11055490?related_id=11055490&origin=pack" alt="shell" width="300" height="200">
-
 # S I M P L E   S H E L L
 
 ## Introduction 🚀
