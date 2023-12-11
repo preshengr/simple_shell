@@ -69,7 +69,6 @@ $
 ```
 ## Authors ✒️
 
-The authors to this project are:
 **PRECIOUS OKWUKWE AMAECHI**
 - GitHub: [@preshengr](https://github.com/preshengr)
 - Twitter: [@preshengr](https://twitter.com/preshengr)
