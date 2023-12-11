@@ -92,6 +92,7 @@ The authors to this project was:
 - LinkedIn: [preshengr](https://www.linkedin.com/in/preshengr/)
 
 **MAHLET MARESHA GIRMA**
+<<<<<<< HEAD
 - GitHub: [username](profilelink)
 - LinkedIn: [username](profilelink)
 - Twitter: [username](profilelink)
@@ -163,3 +164,6 @@ The authors to this project was:
 - LinkedIn: [username](profilelink)
 - Twitter: [username](profilelink)
  
+=======
+- GitHub: [mahi2025](https://github.com/mahi2025)
+- Twitter: [@MasreshaMa35962](https://twitter.com/MasreshaMa35962)
