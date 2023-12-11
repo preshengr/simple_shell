@@ -1,4 +1,4 @@
-<img src="[https://pbs.twimg.com/media/EfpJUkaXkAAwhhT?format=jpg&name=900x900](https://www.flaticon.com/free-icon/sea_11055490?related_id=11055490&origin=pack)" alt="shell" width="1000">
+<img src="[[https://pbs.twimg.com/media/EfpJUkaXkAAwhhT?format=jpg&name=900x900](https://www.flaticon.com/free-icon/sea_11055490?related_id=11055490&origin=pack)](https://www.flaticon.com/free-icon/sea_11055490?related_id=11055490&origin=pack)" alt="shell" width="300" height="200">
 
 # S I M P L E   S H E L L
 
