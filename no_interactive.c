@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * arguments1 - separate the user's string into arguments.
  * @file: file
@@ -7,6 +8,7 @@
  * @out: exit status.
  * Return: out
  */
+
 int arguments1(char *file, char **environ, char *s, int out)
 {
 	char **argv = NULL, *token = NULL;
@@ -27,12 +29,14 @@ int arguments1(char *file, char **environ, char *s, int out)
 	free(argv);
 	return (out);
 }
+
 /**
  * check_string1 - check the string
  * @str: string
  * @length: size string
  * Return: 0 or 1;
  */
+
 int check_string1(char *str, ssize_t length)
 {
 	ssize_t i = 0;
