@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * main - the principal function for shell.
  * @argc: Arguments numbers.
@@ -6,6 +7,7 @@
  * @environ: environ.
  * Return: 0 always.
  */
+
 int main(int argc, char **argv, char **environ)
 {
 	(void)argc;
