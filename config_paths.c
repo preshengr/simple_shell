@@ -1,10 +1,12 @@
 #include "shell.h"
+
 /**
  * _getenv - get env.
  * @environ: environment variables.
  * @variable: variable.
  * Return: result.
  */
+
 char *_getenv(char **environ, char *variable)
 {
 	int index = 0, i, length;
