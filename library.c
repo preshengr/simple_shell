@@ -39,12 +39,14 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	free(ptr);
 	return (a);
 }
+
 /**
  * _memcpy - memcpy
  * @dest: dest
  * @src: src
  * @n: ene
  */
+
 void _memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
