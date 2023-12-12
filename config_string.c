@@ -1,10 +1,12 @@
 #include "shell.h"
+
 /**
  * _strcat - concatenate two strings.
  * @src: First string to append.
  * @dest: Second string to append.
  * Return: Pointer to the resulting string.
  **/
+
 void _strcat(char *dest, char *src)
 {
 	int i = 0, j;
@@ -15,11 +17,13 @@ void _strcat(char *dest, char *src)
 		dest[i] = src[j];
 	dest[i] = '\0';
 }
+
 /**
  * _strlen - length of a string.
  * @s: pointer.
  * Return: result.
  */
+
 int _strlen(char *s)
 {
 	int cifras = 0;
@@ -28,6 +32,7 @@ int _strlen(char *s)
 		cifras++;
 	return (cifras);
 }
+
 /**
  * _strcpy - copies the string pointed to by src.
  *
@@ -36,6 +41,7 @@ int _strlen(char *s)
  *
  * Return: void.
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int i;
