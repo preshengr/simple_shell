@@ -24,6 +24,7 @@ int ex(char *s, char **argv, char *file, char **environ, int count, int out)
 	free(s);
 	exit(out);
 }
+
 /**
  * envir - print environment variables.
  * @s: string.
@@ -34,6 +35,7 @@ int ex(char *s, char **argv, char *file, char **environ, int count, int out)
  * @out: out
  * Return: 0
  */
+
 int envir(char *s, char **argv, char *file, char **environ, int count, int out)
 {
 	int i = 0;
