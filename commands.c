@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * ex - close the shell process.
  * @s: string.
@@ -9,6 +10,7 @@
  * @out: out
  * Return: out
  */
+
 int ex(char *s, char **argv, char *file, char **environ, int count, int out)
 {
 	(void)environ;
