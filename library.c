@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * _realloc - realloc memory
  * @ptr: pointer
@@ -6,6 +7,7 @@
  * @new_size: tamanio nuev
  * Return: pointer
  */
+
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *a;
