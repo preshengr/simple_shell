@@ -51,12 +51,14 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
 /**
  * _strcmp - compare two strings.
  * @s1: string #1.
  * @s2: string #2.
  * Return: 0 if s1 and s2 are equal.
  **/
+
 int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
