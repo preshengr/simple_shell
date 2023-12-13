@@ -1,10 +1,12 @@
 #include "shell.h"
+
 /**
  * check_string - verify that the string is not empty.
  * @str: is the string.
  * @length: string size.
  * Return: 1 if the string is valid, else 0.
  **/
+
 int check_string(char *str, ssize_t length)
 {
 	ssize_t i = 0, count = 1;
@@ -25,11 +27,13 @@ int check_string(char *str, ssize_t length)
 		return (0);
 	return (1);
 }
+
 /**
  * func_loop - environment in interactive mode.
  * @environ: environment variables.
  * @file: file
  */
+
 void func_loop(char **environ, char *file)
 {
 	char *str = NULL;

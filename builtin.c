@@ -1,9 +1,11 @@
 #include "shell.h"
+
 /**
  * builtin - indicates the function to perform, according to s.
  * @s: is the command to compare.
  * Return: function to perform or NULL.
  */
+
 int (*builtin(char *s))(char *, char **, char *, char **, int, int)
 {
 	built ops[] = {
