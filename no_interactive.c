@@ -49,11 +49,13 @@ int check_string1(char *str, ssize_t length)
 	}
 	return (1);
 }
+
 /**
  * no_interactive - environment in no-interactive mode.
  * @environ: environment variables.
  * @file: file
  */
+
 void no_interactive(char **environ, char *file)
 {
 	char *str = NULL, buf = '\0';
