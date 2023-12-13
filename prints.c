@@ -1,18 +1,22 @@
 #include "shell.h"
+
 /**
  * newline - print a new line.
  * @number: indicates whether to start the program or not.
  */
+
 void newline(int number)
 {
 	(void)number;
 
 	write(STDOUT_FILENO, "\nhsh$ ", 6);
 }
+
 /**
  * _putchar - print a string.
  * @c: string to print.
  */
+
 void _putchar(char *c)
 {
 	int i = 0;
@@ -23,10 +27,12 @@ void _putchar(char *c)
 		i++;
 	}
 }
+
 /**
  * printnumber - print a number.
  * @number: number to print.
  */
+
 void printnumber(int number)
 {
 	int length = 0, aux = 1, i;
@@ -55,6 +61,7 @@ void printnumber(int number)
 		aux = aux / 10;
 	}
 }
+
 /**
  * printerror - print error format.
  * @file: execution file.
@@ -62,6 +69,7 @@ void printnumber(int number)
  * @count: execution counter.
  * @message: error message to print.
  */
+
 void printerror(char *file, char *argv, int count, char *message)
 {
 	_putchar(file);
@@ -73,6 +81,7 @@ void printerror(char *file, char *argv, int count, char *message)
 	_putchar(message);
 	write(STDOUT_FILENO, "\n", 1);
 }
+
 /**
  * printerrorex - print error format.
  * @file: execution file.
@@ -80,6 +89,7 @@ void printerror(char *file, char *argv, int count, char *message)
  * @count: execution counter.
  * @message: error message to print.
  */
+
 void printerrorex(char *file, char **argv, int count, char *message)
 {
 	_putchar(file);
